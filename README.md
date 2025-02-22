@@ -11,7 +11,8 @@ cargo run
 ```
 
 ## Features
-- Feature 1
-- Feature 2
-
+- Takes input string and filepath and responds with all matching lines in the file
+- Has both case sensitive and case insensitive. (
+  For case insensitive search,
+     give command "IGNORE_CASE=1 cargo run -- "searchString" "filepath" ".
 
